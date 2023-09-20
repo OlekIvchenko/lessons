@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <style>
+      .conclusion {
+         color: cornflowerblue;
+      }
+   </style>
+   <title>Lesson 4</title>
+</head>
+<body>
+   <header class="header">
+      <ul class="header__list">
+         <li class="header__item">
+            <a href="#preamble" class="header__link"><span>What Is CSS and How Does It Work?</span></a>
+         </li>
+         <li class="header__item">
+            <a href="#advantages" class="header__link"><span style="color:green">CSS Advantages on Web Pages</span></a>
+         </li>
+         <li class="header__item">
+            <a href="#how-work" class="header__link"><span style="color:blue">How Does CSS Work?</span></a>
+         </li>
+         <li class="header__item">
+            <a href="#css-styles" class="header__link"><span style="color:pink">Internal, External and Inline CSS Styles</span></a>
+         </li>
+         <li class="header__item">
+            <a href="#conclusion" class="header__link"><span style="color:red">Conclusion</span></a>
+         </li>
+      </ul>
+   </header>
+   <main class="article">
+      <img src="img/css.jpeg" alt="What Is CSS?" width="600px">
+      <div class="preamble" id="preamble">
+         <h1 class="title">What Is CSS and How Does It Work?</h1>
+         <div class="preamble__wrap">
+            <p>CSS was developed by W3C <a href="https://www.w3.org/" target="_blank">(World Wide Web Consortium)</a> in 1996 for a rather simple reason. HTML element was not designed to have tags that would help format the page. You were only supposed to write the markup for the web page.</p>
+         </div>
+      </div>
+      <div class="advantages" id="advantages">
+         <h2 class="advantages">CSS Advantages on Web Pages</h2>
+         <div class="advantages__wrap">
+            <p>The difference between a web page that implements CSS and one that doesn’t is massive and surely noticeable.</p>
+            <span class="advantage">
+               <p>You might have seen a website that fails to load completely and has a white background color with most of the text being blue and black. This means that the CSS part of the web page didn’t load correctly or it doesn’t exist altogether.</p>
+            </span>
+            <p>That’s what web pages with only HTML look like, and I think you’d agree that that’s not very appealing.</p>            
+            <p>Before using CSS, all of the stylizing had to be included into the HTML markup. This means web developers had to separately describe the background color, font size, alignments, etc.</p>
+            <p>CSS lets you stylize everything on a different file, thus creating the design there and later on integrating the CSS files on top of the HTML markup. This makes the actual HTML markup much cleaner and easier to maintain.</p>
+            <p>In short, with CSS features you don’t need to repeatedly describe how individual elements look. This saves time, shortens the code, and makes it not as prone to errors.</p>
+            <p>CSS lets you have multiple styles on one HTML page, therefore making the customization possibilities almost endless. Nowadays, this is becoming more a necessity than a commodity.</p>
+         </div>
+      </div>
+      <div class="how-work" id="how-work">
+         <h3 class="how-work">How Does CSS Work?</h3>
+         <div class="how-work__wrap text">
+            <p>CSS uses a simple English based syntax with a set of rules that govern it. Like we’ve mentioned before, HTML was never intended to use style elements, only the markup of the page. It was created to merely describe the content.</p>
+            <p>But how do you style the paragraph? The CSS syntax structure is pretty simple. It has a selector and a declaration block. You select an element and then declare what you want to do with it. Pretty straightforward, right?</p>
+            <p>However, there are rules you have to remember. The structure rules are pretty simple, so don’t worry.</p>
+            <p>The selector points to the HTML elements you want to style. The declaration block contains one or more declarations separated by semicolons.</p>
+            <p>Each declaration includes a CSS property name and a value, separated by a colon. A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</p>
+         </div>
+      </div>
+      <div class="css-styles" id="css-styles">
+         <h3 class="css-styles">Internal, External and Inline CSS Styles</h3>
+         <div class="css-styles__wrap">
+            <p>We’ll go over each style briefly, for an in-depth explanation of each method, there will be a link below the overview.</p>
+            <p>Let’s start by talking about the <span>Internal style</span>. CSS styles done this way are loaded each time an entire website is refreshed, which may increase loading time. Additionally, you won’t be able to use the same CSS style on multiple pages as it’s contained within a single page. However, this also comes with benefits. Having everything on one page makes it easier to share the template for a preview.</p>
+            <p>The <mark>External method</mark> might be the most convenient one. Everything is done externally on a <mark>.css file</mark>. This means you can do all the styling on a separate file and apply the CSS to any page you want. The External style might also improve loading times.</p>
+            <p>Lastly, we will talk about the <span>Inline style</span> of CSS. Inline works with specific elements that have the tag. Each component has to be stylized, so it might not be the best or fastest way to handle CSS. But it can come in handy. For example, if you want to change a single element, quickly preview changes, or maybe you don’t have access to the CSS files.</p>
+            <p>For more information about the different styles of CSS, see our in-depth article <a href="https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css" target="_blank">here</a>.</p>
+         </div>
+      </div>      
+      <div class="conclusion" id="conclusion">
+         <h2 class="conclusion">Conclusion</h2>
+         <div class="conclusion__wrap">
+            <p>Let’s sum up what we have learned here about CSS and how it helps with the aesthetic of web pages:</p>
+            <ul class="conclusion__list">
+               <li>CSS was created to work in conjunction with other markup languages like HTML. It is used to stylize a page.</li>
+               <li>There are three styles of implementing CSS, and you can use the External style to accord multiple pages at once.</li>
+               <li>You won’t go far without seeing some kind of CSS implementation nowadays since it’s as much of a requirement as the markup language itself.</li>
+            </ul>
+            <p>All in all, we hope you found this article helpful, and if you have any questions, please leave them in the comments section below.</p>
+         </div>
+      </div>
+   </main>
+
+   <footer class="footer">
+      <ul class="footer__list">
+         <li class="footer__item">
+            <a href="#" class="footer__link">Privacy Policy</a>
+         </li>
+         <li class="footer__item">
+            <a href="#" class="footer__link">Terms of Service</a>
+         </li>
+         <li class="footer__item">
+            <a href="#" class="footer__link">Reviews</a>
+         </li>
+         <li class="footer__item">
+            <a href="#" class="footer__link">Pricing</a>
+         </li>
+         <li class="footer__item">
+            <a href="#" class="footer__link">Sitemap</a>
+         </li>
+      </ul>
+      <div class="rights">
+         <div>
+            <p>© 2004-2023 hostinger.com</p>
+         </div>
+         <p>Premium Web Hosting, Cloud, VPS & Domain Registration Services.</p>
+      </div>
+   </footer>
+</body>
+</html>

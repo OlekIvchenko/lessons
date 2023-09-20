@@ -1,0 +1,45 @@
+@import url("reset.css");
+
+#preamble{
+	color: red;
+}
+span.advantage{
+    color: darkred;
+}
+h3.how-work, h3.css-styles {
+    color: gray;
+}
+/* preamble */
+.preamble__wrap p {
+    color: green;
+}
+/* advantages */
+.advantages__wrap > p {
+    color: blueviolet;
+}
+/* how-work */
+.how-work__wrap.text {
+    color: blue;
+}
+/* css-styles */
+.css-styles + div {
+    color: orangered;
+}
+.css-styles span {
+    color: chartreuse;
+}
+/* conclusion */
+.conclusion .conclusion__list {
+    color: aquamarine;
+}
+/* wrap */
+[class*="__wrap"] {
+    color: olive;
+}
+/* footer */
+li * {
+    color: royalblue;
+}
+div ~ p {
+    color:green;
+}
