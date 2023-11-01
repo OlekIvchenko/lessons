@@ -9,7 +9,7 @@ body {
    font-size: 18px;
    font-style: normal;
 }
-h1 {
+h1, .lesson-heading {
    font-size: 28px;
    text-align: center;
 }
