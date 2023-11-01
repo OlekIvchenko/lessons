@@ -9,7 +9,7 @@ body {
    font-size: 18px;
    font-style: normal;
 }
-h1, .lesson-heading {
+h1 {
    font-size: 28px;
    text-align: center;
 }
@@ -291,6 +291,10 @@ section {
    margin: 0 auto;
 	font-family: "Inter", sans-serif;
    color: #37393f;
+}
+.lesson-heading {
+	font-size: 24px;
+	margin-bottom: 20px;
 }
 .wrap-lesson p {
 	font-size: 18px;
