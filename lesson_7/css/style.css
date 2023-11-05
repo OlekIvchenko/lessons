@@ -9,48 +9,85 @@ body {
    font-size: 18px;
    font-style: normal;
 }
+main {
+	margin-bottom: 100px;
+}
+section {
+	margin-bottom: 150px;
+}
+footer{
+	padding-bottom: 40px;
+}
 h1 {
    font-size: 28px;
    text-align: center;
+	margin-bottom: 40px;
 }
 .header {
    max-width: 900px;
-   margin: 0 auto;
-	border-bottom: 1px solid #ddd;
+   margin: 0 auto 100px;
 }
 .image-header {
    max-width: 900px;
    margin-bottom: 50px;
-}
-.header__list {
-	margin: 40px 0;
 }
 .header__list, .go-to-up, .social__list {
    text-align: center;
    font-size: 20px;
 }
 .header__list li, .social__list li {
-   display:inline;
+   display: inline;
    color: #6b77e5;
-	padding-left: 20px;
+	padding-right: 20px;
+}
+.header__list li.last, .social__list li.last {
+	padding-right: unset;
 }
 .go-to-up{
    color: #6b77e5;
-   margin-bottom: 40px;
 }
 .social__list {
    font-size: 0;
-	padding-bottom: 40px;
 }
-.header__list li:hover, .go-to-up:hover {
+.header__list li a:hover, .go-to-up a:hover {
    color: #40ddb6;
 }
-
-/* Section */
-section {
-	border-bottom: 1px solid #ddd;
+/* Lesson */
+.lesson {
+	margin-bottom: 100px;
+	font-family: "Inter", sans-serif;
+   color: #37393f;
 }
-
+.wrap-lesson {
+   max-width: 600px;
+   margin: 0 auto;
+}
+.wrap-lesson h2 {
+   font-size: 22px;
+	font-weight: 600;
+   text-align: center;
+	margin-bottom: 20px;
+}
+.wrap-lesson p {
+	font-size: 18px;
+	font-style: normal;
+	line-height: 1.46;
+	margin-bottom: 4px;
+}
+.wrap-lesson ul {
+	margin-bottom: 10px;
+}
+.property-items li {
+	line-height: 1.46;
+	padding-left: 40px;
+	color: #6b77e5;
+}
+.wrap-lesson a:hover  {
+	color: #40ddb6;
+}
+.property-items.last{
+	margin-bottom: unset;
+}
 /* Licencing */
 .licencing-content {
 	font-family: "Inter", sans-serif;
@@ -59,7 +96,6 @@ section {
 	line-height: 1;
 	color: #7D7D7D;
 	max-width: 1200px;
-	padding: 150px 0;
 	margin: 0 auto;
 }
 .licencing-body {
@@ -123,7 +159,6 @@ section {
 	font-weight: 400;
 	line-height: 1.46;
 }
-
 /* Project Information */
 .project-content {
 	font-family: "Inter", sans-serif;
@@ -133,7 +168,6 @@ section {
 	color: #7D7D7D;
 	line-height: 1.46;
 	max-width: 830px;
-	padding: 50px 0;
 	margin: 0 auto;
 }
 .project-heading {
@@ -148,16 +182,14 @@ section {
 	margin-bottom: 35px;
 }
 .project-item {
-	list-style: unset;
 	font-weight: 500;
 	line-height: 1.46;
-	margin-left: 36px;
+	padding-left: 36px;
 	margin-bottom: 25px;
 }
 .project-item.last {
 	margin-bottom: unset;
 }
-
 /* Clothing */
 .clothing-content {
    font-family: "Causten", sans-serif;
@@ -166,7 +198,6 @@ section {
 	line-height: 1;
 	color: #807D7E;
 	max-width: 1240px;
-	padding: 100px 0;
 	margin: 0 auto;
 }
 .clothing-header-block {
@@ -221,7 +252,6 @@ section {
 .clothing-more a:hover {
 	color: #8A33FD;
 }
-
 /* What we do */
 .what-content {
 	font-family: "Cormorant Infant", serif;
@@ -232,7 +262,6 @@ section {
 	line-height: 1;
 	font-style: normal;
 	max-width: 1100px;
-	padding: 100px 0;
 	margin: 0 auto;
 }
 .what-body {
@@ -279,44 +308,4 @@ section {
 .what-img.bg img {
 	padding-top: 19px;
 	margin-left: -11px;
-}
-
-/* Lesson */
-.lesson {
-	width: 100%;
-	padding: 100px 0;
-}
-.wrap-lesson {
-   max-width: 600px;
-   margin: 0 auto;
-	font-family: "Inter", sans-serif;
-   color: #37393f;
-}
-.lesson-heading {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-.wrap-lesson p {
-	font-size: 18px;
-	font-style: normal;
-	line-height: 1.46;
-	margin-bottom: 4px;
-}
-.wrap-lesson ul {
-	margin-bottom: 10px;
-}
-.property-items li {
-   list-style: unset;
-	line-height: 1.46;
-	margin-left: 40px;
-	color: #6b77e5;
-}
-.css-element a:hover, .property-items a:hover {
-	color: #40ddb6;
-}
-.property-items span {
-	color: #37393f;
-}
-.property-items.last{
-	margin-bottom: unset;
 }
