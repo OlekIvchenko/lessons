@@ -1,0 +1,414 @@
+/* Fonts on Server */
+@import url("fonts.css");
+
+/* Reset Style */
+@import url("reset.css");
+
+body {
+   font-family: "Causten", sans-serif;
+   font-style: normal;
+}
+main {
+	margin-bottom: 100px;
+}
+section {
+	margin-bottom: 150px;
+}
+footer{
+	padding-bottom: 40px;
+}
+h1 {
+   font-size: 28px;
+   text-align: center;
+	margin-bottom: 40px;
+}
+.header {
+   max-width: 900px;
+   margin: 0 auto 100px;
+}
+.image-header {
+   max-width: 900px;
+   margin-bottom: 50px;
+}
+.header__list, .go-to-up, .social__list {
+   text-align: center;
+   font-size: 20px;
+}
+.header__list li, .social__list li {
+   display: inline;
+   color: #6b77e5;
+	margin-right: 20px;
+}
+.header__list li.last, .social__list li.last {
+	margin-right: unset;
+}
+.go-to-up{
+   color: #6b77e5;
+}
+.social__list {
+   font-size: 0;
+}
+.social__list img {
+	width: 48px;
+	height: 48px;
+}
+.header__list li a:hover, .go-to-up a:hover {
+   color: #40ddb6;
+}
+/* Lesson */
+.lesson {
+	margin-bottom: 100px;
+	font-family: "Inter", sans-serif;
+   color: #37393f;
+}
+.wrap-lesson {
+   max-width: 600px;
+   margin: 0 auto;
+}
+.wrap-lesson h2 {
+   font-size: 22px;
+	font-weight: 600;
+   text-align: center;
+	margin-bottom: 20px;
+}
+.wrap-lesson p, .wrap-lesson li {
+	font-size: 18px;
+	font-style: normal;
+	line-height: 1.46;
+	margin-bottom: 4px;
+}
+.wrap-lesson ul {
+	margin-bottom: 10px;
+}
+.wrap-lesson a:hover  {
+	color: #40ddb6;
+}
+.property-items.last{
+	margin-bottom: unset;
+}
+/* Welcome Whitecollar */
+.we-care-content {
+	font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+	color: #7D7D7D;
+	max-width: 703px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.we-care-square{
+	padding-left: 18px;
+	line-height: 1.22;
+	background: url(../img/square.svg) 0 5px / 12px 12px no-repeat;
+	min-height: 12px;
+}
+.we-care-headline {
+	color: #37393F;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+.we-care-heading, .we-care-list {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 20px;
+}
+.we-care-text {
+	line-height: 1.46;
+	margin-bottom: 23px;
+}
+.we-care-text p {
+	margin-bottom: 15px;
+}
+.we-care-text p.last {
+	margin-bottom: unset;
+}
+.we-care-list {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 43px;
+}
+.we-care-list li {
+	padding-left: 35px;
+   line-height: 1.35;
+   background: url(../img/checked.svg) 0 0 / 27px 27px no-repeat;
+	min-height: 27px;
+	margin-bottom: 23px;
+}
+.we-care-list li.last {
+	margin-bottom: unset;
+}
+.we-care-advantages {
+	margin-bottom: 37px;
+}
+.we-care-advantages-item {
+	border: 1px solid #E3E3E3;
+	padding: 32px;
+	display: inline-block;
+	max-width: 296px;
+	margin-right: 21px;
+}
+.we-care-advantages-item.last {
+	margin-right: unset;
+}
+.advantages-left {
+	background: url(../img/advantages1.svg) 0 0 / 40px 40px no-repeat;
+	min-height: 40px;
+   padding-left: 60px;
+}
+.advantages-right {
+	background: url(../img/advantages2.svg) 0 0 / 40px 40px no-repeat;
+	min-height: 40px;
+   padding-left: 60px;
+}
+.we-care-advantages-item span {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 3px;
+}
+.we-care-advantages-item p {
+	font-size: 16px;
+	line-height: 1.35;
+}
+.we-care-button{
+	padding: 23px 27px;
+   background: #6B77E5;
+   color: #fff;
+   font-weight: 600;
+   display: inline-block;
+	text-transform: capitalize;
+}
+/* Latest Projects */
+.latest-projects-content {
+	font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+	color: #7D7D7D;
+	padding: 0 15px;
+	max-width: 1250px;
+   margin: 0 auto;
+}
+.latest-projects-header{
+	text-align: center;
+	margin: 0 auto 47px auto;
+	max-width: 850px;
+}
+.latest-projects-square{
+	padding-left: 18px;
+	line-height: 1.22;
+	background: url(../img/square.svg) 0 5px / 12px 12px no-repeat;
+	min-height: 12px;
+	display: inline-block;
+}
+.latest-projects-headline {
+	color: #37393F;
+	font-weight: 500;
+	margin-bottom: 14px;
+}
+.latest-projects-heading {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 14px;
+}
+.latest-projects-text {
+	line-height: 1.46;
+}
+.latest-projects-first-row {
+	margin-bottom: 58px;
+	font-size: 0px;
+}
+.latest-projects-second-row {
+	font-size: 0px;
+}
+.latest-project {
+	display: inline-block;
+   width: 100%;
+   max-width: 384px;
+}
+.latest-project.item-first, .latest-project.item-second {
+	margin-right: 34px;
+}
+.latest-project-img {
+	min-height: 501px;
+   max-width: 100%;
+   margin-bottom: 24px;
+	font-size: 0px;
+}
+.latest-projects-first-row .item-first .latest-project-img {
+	background: url(../img/projects_img1.jpg) center/ cover no-repeat;
+}
+.latest-projects-first-row .item-second .latest-project-img {
+	background: url(../img/projects_img2.jpg) center/ cover no-repeat;
+}
+.latest-projects-first-row .item-last .latest-project-img {
+	background: url(../img/projects_img3.jpg) center/ cover no-repeat;
+}
+.latest-projects-second-row .item-first .latest-project-img {
+	background: url(../img/projects_img4.jpg) center/ cover no-repeat;
+}
+.latest-projects-second-row .item-second .latest-project-img {
+	background: url(../img/projects_img5.jpg) center/ cover no-repeat;
+}
+.latest-projects-second-row .item-last .latest-project-img {
+	background: url(../img/projects_img6.jpg) center/ cover no-repeat;
+}
+.latest-project-heading {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 10px;
+}
+.latest-project-text {
+	min-width: 346px;
+	display: inline-block;
+}
+.latest-project-date {
+	padding-left: 25px;
+	background: url(../img/date.svg) 0 0 / 22px 22px no-repeat;
+	min-height: 22px;
+	font-size: 14px;
+	line-height: 1.46;
+}
+.latest-project-more-active, .latest-project-more:hover {
+	display: inline-block;
+	background: url(../img/more-active.svg) 0 0 / 38px 38px no-repeat;
+	min-height: 38px;
+	min-width: 38px;
+}
+.latest-project-more {
+	display: inline-block;
+	background: url(../img/more-static.svg) 0 0 / 38px 38px no-repeat;
+	min-height: 38px;
+	min-width: 38px;
+}
+/* Clothing for Women */
+.clothing-content {
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+	line-height: 1;
+	color: #807D7E;
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.clothing-header-block {
+	font-size: 0;
+   margin-bottom: 30px;
+}
+.clothing-body {
+	padding-left: 21px;
+}
+.clothing-body-block {
+	margin-bottom: 25px;
+}
+.clothing-body-block.last, .clothing-text.last {
+	margin-bottom: unset;
+}
+.clothing-square {
+	display: inline-block;
+	width: 6px;
+	height: 28px;
+	border-radius: 10px;
+	background-color: #8A33FD;
+	vertical-align: top;
+	margin-right: 15px;
+}
+.clothing-headline {
+	display: inline-block;
+	color: #3C4242;
+	font-family: "CoreSansC", sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0.56px;
+}
+.clothing-subheading, .clothing-more {
+	font-family: "CoreSansC", sans-serif;
+	font-weight: 600;
+	line-height:  1.68;
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+.clothing-text {
+	font-weight: 400;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+.clothing-text span, .clothing-more {
+	font-weight: 700;
+	margin-bottom: unset;
+}
+.clothing-more a:hover {
+	color: #8A33FD;
+}
+/* We Made */
+.we-made-content {
+	max-width: 1250px;
+	padding: 0 11px;
+	margin: 0 auto;
+}
+.we-made-container {
+	overflow: hidden;
+	font-size: 0;
+	border-radius: 14px;
+}
+.we-made-left{
+	max-width: 614px;
+	padding: 183px 74px 163px;
+	background: url(../img/fashion_img1.jpg) center/ cover no-repeat;
+	display: inline-block;
+}
+.we-made-heading {
+	color: #fff;
+	font-family: 'CoreSansC', sans-serif;
+	font-size: 34px;
+	letter-spacing: 0.2px;
+	line-height: 1.47;
+	font-weight: 800;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.we-made-text {
+	color: #fff;
+   font-family: "Causten", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+.we-made-btn {
+	text-transform: capitalize;
+	border-radius: 8px;
+    padding: 12px 44px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3C4242;
+    display: inline-block;
+}
+
+
+
+
+
+.we-made-right {
+	vertical-align: top;
+	max-width: 614px;
+	width: 100%;
+	height: 640px;
+	background: url(../img/fashion_img2.jpg) center/ cover no-repeat;
+	display: inline-block;
+}
