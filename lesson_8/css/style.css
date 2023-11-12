@@ -238,9 +238,7 @@ h1 {
 }
 .latest-project-img {
 	min-height: 501px;
-   max-width: 100%;
    margin-bottom: 24px;
-	font-size: 0px;
 }
 .latest-projects-first-row .item-first .latest-project-img {
 	background: url(../img/projects_img1.jpg) center/ cover no-repeat;
@@ -284,12 +282,14 @@ h1 {
 	background: url(../img/more-active.svg) 0 0 / 38px 38px no-repeat;
 	min-height: 38px;
 	min-width: 38px;
+	cursor: pointer;
 }
 .latest-project-more {
 	display: inline-block;
 	background: url(../img/more-static.svg) 0 0 / 38px 38px no-repeat;
 	min-height: 38px;
 	min-width: 38px;
+	cursor: pointer;
 }
 /* Clothing for Women */
 .clothing-content {
@@ -399,11 +399,6 @@ h1 {
     color: #3C4242;
     display: inline-block;
 }
-
-
-
-
-
 .we-made-right {
 	vertical-align: top;
 	max-width: 614px;
