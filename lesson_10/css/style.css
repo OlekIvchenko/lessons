@@ -1,0 +1,84 @@
+/* Fonts on Server */
+@import url("fonts.css");
+
+/* Reset Style */
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+   font-style: normal;
+}
+main {
+	margin-bottom: 100px;
+}
+footer{
+	padding-bottom: 40px;
+}
+h1 {
+   font-size: 28px;
+   text-align: center;
+	margin-bottom: 40px;
+}
+.header {
+   max-width: 900px;
+   margin: 0 auto 100px;
+}
+.image-header {
+   max-width: 900px;
+   margin-bottom: 50px;
+}
+.go-to-up, .social__list {
+   text-align: center;
+   font-size: 20px;
+}
+.social__list li {
+   display: inline;
+   color: #6b77e5;
+	margin-right: 20px;
+}
+.social__list li:last-of-type {
+	margin-right: 0;
+}
+.social__list li:hover{
+	opacity: 0.5;
+}
+.go-to-up{
+   color: #6b77e5;
+}
+.go-to-up a:hover{
+	text-decoration: underline;
+}
+.social__list {
+   font-size: 0;
+}
+.social__list img {
+	width: 48px;
+	height: 48px;
+}
+/* Lesson */
+.lesson {
+	margin-bottom: 100px;
+   color: #37393f;
+}
+.wrap-lesson {
+   max-width: 600px;
+   margin: 0 auto;
+	font-size: 0;
+}
+.wrap-lesson h2 {
+   font-size: 22px;
+	font-weight: 600;
+   text-align: center;
+	margin-bottom: 20px;
+}
+.wrap-lesson p {
+	font-size: 18px;
+	font-style: normal;
+	line-height: 1.46;
+	margin-bottom: 20px;
+}
+.wrap-lesson img {
+	padding-right: 40px;
+	vertical-align: middle;
+	max-width: 300px;
+}
