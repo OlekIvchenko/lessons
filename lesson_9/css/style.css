@@ -387,15 +387,15 @@ margin-bottom: 0;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.21;
-	margin-bottom: 77px;
+	margin-bottom: 41px;
 	text-align: center;
 }
 .how-we-work-list {
 	font-size: 0px;
+	padding-top: 36px;
 }
 .how-we-work-item {
 	max-width: 386px;
-	max-height: 301px;
 	padding: 58px 43px;
 	display: inline-block;
    background: #F4F4F4;
@@ -511,7 +511,7 @@ margin-bottom: 0;
 	margin-right: 45px;
 }
 .we-develop-card-1 img {
-	max-width: 334px;
+	width: 100%;
    margin-bottom: 25px;
 	margin-left: 10px;
 	box-shadow: -9px -9px 0 0 #fff, -9px -9px 0px 1px #000;
@@ -535,6 +535,7 @@ margin-bottom: 0;
 	max-width: 339px;
 }
 .we-develop-card-2 img {
+	width: 100%;
 	margin-bottom: 25px;
 	margin-left: 10px;
 	box-shadow: -9px -9px 0 0 #fff, -9px -9px 0px 1px #000;
