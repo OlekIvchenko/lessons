@@ -93,7 +93,7 @@ section {
 	background-color: #40ddb6;
 	padding: 15px;
 }
-.sticky {
+.sticky, .header-menu--sticky {
 	position: sticky;
 	top: 0;
 	left: 0;
