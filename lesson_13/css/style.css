@@ -94,6 +94,15 @@ section {
    width: 100%;
    padding: 250px 0 140px;
 }
+.suv__headline {
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	top: 120px;
+	z-index: 2;
+	left: 30px;
+	color: #418d8d;
+}
 .suv__container {
    max-width: 1230px;
    padding: 0 15px;
@@ -334,7 +343,7 @@ section {
 }
 .up-suv__middle-window-hole {
    border-right: 120px solid transparent;
-   border-bottom: 122px solid #000;
+   border-bottom: 121px solid #000;
    position: absolute;
    top: -114px;
    left: 510px;
