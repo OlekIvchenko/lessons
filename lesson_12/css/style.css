@@ -38,7 +38,7 @@ section {
    font-size: 20px;
 }
 .social-footer__link {
-   display: inline;
+   display: inline-block;
    color: #6b77e5;
 	margin-right: 20px;
 }
@@ -249,7 +249,7 @@ section {
 .card__body {
 	background: #fff;
 	width: 88.4%;
-	padding: 24px 0;
+	padding: 24px 20px;
 	position: absolute;
 	left: 23px;
 	bottom: 23px;
