@@ -636,21 +636,27 @@ body {
 	}
 }
 /* Individual Jewelry Design */
+.page--individual {
+	padding-top: 101px;
+}
+@media (max-width: 960px) {
+	.page--individual {
+		padding-top: unset;
+	}
+}
 .individual {
 	background-color: #fff9f4;
-	padding-top: 200px;
-	padding-bottom: 140px;
-	min-height: 100vh;
+	padding-top: 100px;
+	min-height: calc(100svh - 101px);
 }
 @media (max-width: 960px) {
 	.individual {
-		padding-top: 100px;
+		padding-top: 40px;
 		padding-bottom: 70px;
 	}
 }
 @media (max-width: 599px) {
 	.individual {
-		padding-top: 80px;
 		padding-bottom: 40px;
 	}
 }
@@ -658,7 +664,8 @@ body {
 	max-width: 1216px;
 	display: flex;
 	align-items: center;
-	column-gap: 86px;
+	column-gap: 20px;
+	justify-content: space-between;
 }
 @media (max-width: 1199.98px) {
 	.individual__container {
